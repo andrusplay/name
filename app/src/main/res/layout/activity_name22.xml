@@ -9,56 +9,92 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="20dp"
-        android:padding="20dp"
         android:orientation="vertical"
-        >
+        android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:layout_width="283dp"
-            android:layout_height="70dp"
-            android:layout_margin="20dp"
-            android:padding="20dp">
-
-            <TextView
-                android:layout_width="256dp"
-                android:layout_height="66dp"
-                android:text="REGISTRARME"
-                android:textColor="#491D1D"
-                android:textSize="26dp" />
-        </RelativeLayout>
-        <GridLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
             android:padding="20dp"
-            android:orientation="vertical" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+        <RelativeLayout
+            android:layout_width="283dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="0"
             android:layout_margin="20dp"
-            android:text="Nombre"  />
+            android:padding="20dp">
+
+        </RelativeLayout>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="REGISTRARME"
+        android:textColor="#491D1D"
+        android:textSize="25dp"
+            android:gravity="center"/>
+
+        <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="20dp"
-                android:text="Apellidos"  />
-        <EditText
+                android:layout_margin="15dp"
+                android:text="Nombre"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:text="Apellidos"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Correo electronico"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Direccion"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="celular"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Usuario"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Contraseña"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="Repetir Contraseña"/>
+
+        <Button
+            android:id="@+id/registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRARME"/>
+        <Button
+            android:id="@+id/cuenta"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:text="Correo electronico" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:text="Direccion" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:text="celular"  />
-        
+            android:text="¿Ya tienes una cuenta?"
+            android:gravity="center"/>
     </LinearLayout>
 </ScrollView>

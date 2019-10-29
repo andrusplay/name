@@ -70,36 +70,31 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginBottom="45dp" />
             <Button
+                android:id="@+id/registro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:text="¿iniciar sesion?"
-                android:textColor="#685D5"
+                android:textColor="#868585"
                 android:layout_marginBottom="35dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="¿has olvidado tu contraseña?"
-                android:textColor="#916262"
+                android:textColor="#8F8D8D"
                 android:layout_marginBottom="15dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="O"
                 android:layout_gravity="center"
-                android:textColor="#ADADADA"
                 android:layout_marginBottom="15dp" />
             <Button
+                android:id="@+id/cuenta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="crear una cuenta"
-                android:layout_gravity="center"
+                android:layout_gravity="center"/>
         </GridLayout>
     </LinearLayout>
-
-
-
-
-
-
-
+</ScrollView>

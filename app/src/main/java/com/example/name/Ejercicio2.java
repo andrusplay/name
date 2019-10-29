@@ -1,17 +1,14 @@
-package com.example.name ;
-
-
-
-import android.os.Bundle;
+package com.example.name;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class name22 extends AppCompatActivity {
+import android.os.Bundle;
 
+public class Ejercicio2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_name22);
+        setContentView(R.layout.activity_ejercicio2);
     }
 }
